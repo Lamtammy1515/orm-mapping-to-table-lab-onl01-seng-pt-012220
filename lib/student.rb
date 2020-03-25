@@ -32,6 +32,8 @@ class Student
   end
   
   def self.create 
-    
+    student = Student.new(name, album)
+    student.save
+    student
   end 
 end
